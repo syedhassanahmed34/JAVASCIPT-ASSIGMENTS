@@ -1,0 +1,37 @@
+body{
+    background-image: url(https://images.pexels.com/photos/40185/mac-freelancer-macintosh-macbook-40185.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-repeat: cover;
+    width: 100%;
+}
+
+
+h1{
+    text-align: center;
+    color: blue;
+    background-color: black;
+}
+
+h4{
+    font-weight: bold;
+    font-size: 20px;
+    color: darkgoldenrod;
+    background-color: black;
+    margin-left: 20px;
+
+}
+
+p{
+    font-size: 23px;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+p:hover{
+    cursor: pointer;
+    /* -color: blue; */
+}
+p>a{
+    color: black;
+    font-weight: bolder;
+    list-style-type: decimal;
+}
