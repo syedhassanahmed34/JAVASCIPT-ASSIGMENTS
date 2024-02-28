@@ -1,6 +1,6 @@
 body{
-    background-image: url(https://images.pexels.com/photos/40185/mac-freelancer-macintosh-macbook-40185.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
-    background-repeat: cover;
+    /* background-image: url(https://images.pexels.com/photos/40185/mac-freelancer-macintosh-macbook-40185.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1); */
+    background-repeat: no-repeat;
     width: 100%;
 }
 
@@ -8,22 +8,23 @@ body{
 h1{
     text-align: center;
     color: blue;
-    background-color: black;
+    /* background-color: black; */
 }
 
 h4{
     font-weight: bold;
     font-size: 20px;
     color: darkgoldenrod;
-    background-color: black;
+    /* background-color: black; */
     margin-left: 20px;
 
 }
 
 p{
-    font-size: 23px;
+    font-size: 20px;
     color: black;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    align-items: center;
 }
 
 p:hover{
@@ -32,6 +33,6 @@ p:hover{
 }
 p>a{
     color: black;
-    font-weight: bolder;
+    font-weight: lighter;
     list-style-type: decimal;
 }
