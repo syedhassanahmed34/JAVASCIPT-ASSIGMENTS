@@ -6,12 +6,16 @@ body{
 
 
 h1{
+    text-decoration: underline black;
     text-align: center;
     color: blue;
     /* background-color: black; */
 }
 
 h4{
+    margin-top: 35px;
+    margin-bottom: 70px;
+    text-align: center;
     font-weight: bold;
     font-size: 20px;
     color: darkgoldenrod;
@@ -35,4 +39,12 @@ p>a{
     color: black;
     font-weight: lighter;
     list-style-type: decimal;
+}
+
+ul{
+    text-align: center;
+}
+
+ul>li{
+    list-style-type: none;
 }
