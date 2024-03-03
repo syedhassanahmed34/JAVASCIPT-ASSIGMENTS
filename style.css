@@ -1,6 +1,7 @@
 body{
-    /* background-image: url(https://images.pexels.com/photos/40185/mac-freelancer-macintosh-macbook-40185.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1); */
-    background-repeat: no-repeat;
+    background-image: url(https://c4.wallpaperflare.com/wallpaper/231/692/871/2019-ram-1500-rebel-12-pickup-hd-wallpaper-preview.jpg);
+    /* background-repeat: no-repeat; */
+    background-size: cover;
     width: 100%;
 }
 
@@ -17,8 +18,8 @@ h4{
     margin-bottom: 70px;
     text-align: center;
     font-weight: bold;
-    font-size: 20px;
-    color: darkgoldenrod;
+    font-size: 23px;
+    color: green;
     /* background-color: black; */
     margin-left: 20px;
 
@@ -37,7 +38,7 @@ p:hover{
 }
 p>a{
     color: black;
-    font-weight: lighter;
+    font-weight: bold;
     list-style-type: decimal;
 }
 
