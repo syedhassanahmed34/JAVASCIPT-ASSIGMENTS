@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS</title>
+    <style>
+        body {
+          font-family: Arial, sans-serif;
+          max-width: 600px;
+          margin: 0 auto;
+          padding: 20px;
+        }
+        h1 {
+          text-align: center;
+        }
+        form {
+          display: flex;
+          flex-wrap: wrap;
+          gap: 10px;
+          justify-content: center;
+        }
+        input[type="text"] {
+          flex-basis: calc(100% - 5px);
+        }
+        button[type="submit"] {
+          flex-basis: 100%;
+        }
+        #result {
+          margin-top: 10px;
+          text-align: center;
+        }
+      </style>
+</head>
+<body>
+    <h1>Time Message</h1>
+  <form id="timeForm">
+    <label for="timeInput">Enter time (24-hour clock format):</label>
+    <input type="text" id="timeInput" name="timeInput" required pattern="[0-9]{4}">
+    <button type="submit">Show Message</button>
+  </form>
+  <p id="result"></p>
+
+
+    <script src="q7.js"></script>
+</body>
+</html>

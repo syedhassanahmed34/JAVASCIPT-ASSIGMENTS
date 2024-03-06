@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+          font-family: Arial, sans-serif;
+          max-width: 600px;
+          margin: 0 auto;
+          padding: 20px;
+        }
+        h1 {
+          text-align: center;
+        }
+        form {
+          display: flex;
+          flex-wrap: wrap;
+          gap: 10px;
+          justify-content: center;
+        }
+        input[type="number"] {
+          flex-basis: calc(100% - 5px);
+        }
+        button[type="submit"] {
+          flex-basis: 100%;
+        }
+        #result {
+          margin-top: 10px;
+          text-align: center;
+        }
+      </style>
+</head>
+<body>
+    
+    <h1>Check Number Sign</h1>
+    <form id="numberForm">
+      <label for="numberInput">Enter a number:</label>
+      <input type="number" id="numberInput" name="numberInput" required>
+      <button type="submit">Check</button>
+    </form>
+    <p id="result"></p>
+    <script src="q3.js"></script>
+</body>
+</html>

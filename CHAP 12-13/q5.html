@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS</title>
+    <style>
+        body {
+          font-family: Arial, sans-serif;
+          max-width: 600px;
+          margin: 0 auto;
+          padding: 20px;
+        }
+        h1 {
+          text-align: center;
+        }
+        form {
+          display: flex;
+          flex-wrap: wrap;
+          gap: 10px;
+          justify-content: center;
+        }
+        input[type="password"] {
+          flex-basis: calc(100% - 5px);
+        }
+        button[type="submit"] {
+          flex-basis: 100%;
+        }
+        #result {
+          margin-top: 10px;
+          text-align: center;
+        }
+      </style>
+</head>
+<body>
+    <h1>Password Validation</h1>
+  <form id="passwordForm">
+    <label for="passwordInput">Enter your password:</label>
+    <input type="password" id="passwordInput" name="passwordInput" required>
+    <button type="submit">Validate</button>
+  </form>
+  <p id="result"></p>
+
+    <script src="q5.js"></script>
+</body>
+</html>
