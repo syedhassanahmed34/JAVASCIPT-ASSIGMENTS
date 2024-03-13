@@ -41,6 +41,9 @@ p>a{
     font-weight: bold;
     list-style-type: decimal;
 }
+p>a:hover{
+    color: blue;
+}
 
 ul{
     text-align: center;
