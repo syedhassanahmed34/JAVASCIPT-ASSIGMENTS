@@ -1,5 +1,5 @@
 body{
-    background-image: url(https://c4.wallpaperflare.com/wallpaper/231/692/871/2019-ram-1500-rebel-12-pickup-hd-wallpaper-preview.jpg);
+    background-image: url(https://w0.peakpx.com/wallpaper/833/335/HD-wallpaper-dull-day-rain-raining.jpg);
     /* background-repeat: no-repeat; */
     background-size: cover;
     width: 100%;
@@ -10,6 +10,7 @@ h1{
     text-decoration: underline black;
     text-align: center;
     color: blue;
+    font-weight: bold;
     /* background-color: black; */
 }
 
@@ -39,7 +40,7 @@ p:hover{
 p>a{
     color: black;
     font-weight: bold;
-    list-style-type: decimal;
+    /* list-style: decimal; */
 }
 p>a:hover{
     color: blue;
